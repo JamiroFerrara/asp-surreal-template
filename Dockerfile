@@ -6,5 +6,5 @@
     WORKDIR /app
     COPY ./bin/Debug/net7.0/linux-musl-x64/. ./
 
-    RUN chmod +x ./AspNetDemo
+    RUN chmod +x ./demo
     CMD ["./demo", "--urls", "http://0.0.0.0:8080"]
