@@ -8,7 +8,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
-app.MapSurreal("http://localhost:8000/sql");
+app.MapSurreal("https://asdf-db.fly.dev/sql");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
